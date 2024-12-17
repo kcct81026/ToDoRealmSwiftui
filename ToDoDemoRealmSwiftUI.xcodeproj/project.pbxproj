@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41A750BC2D11BEAA00B65020 /* SearchContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A750BB2D11BEAA00B65020 /* SearchContentView.swift */; };
+		41A750BF2D11C0BC00B65020 /* TaskData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A750BE2D11C0BC00B65020 /* TaskData.swift */; };
 		41B662522D0744FB00B870FD /* ToDoDemoRealmSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B662512D0744FB00B870FD /* ToDoDemoRealmSwiftUIApp.swift */; };
 		41B662542D0744FB00B870FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B662532D0744FB00B870FD /* ContentView.swift */; };
 		41B662562D0744FE00B870FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41B662552D0744FE00B870FD /* Assets.xcassets */; };
@@ -56,6 +58,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		41A750BB2D11BEAA00B65020 /* SearchContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchContentView.swift; sourceTree = "<group>"; };
+		41A750BE2D11C0BC00B65020 /* TaskData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskData.swift; sourceTree = "<group>"; };
 		41B6624E2D0744FB00B870FD /* ToDoDemoRealmSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoDemoRealmSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41B662512D0744FB00B870FD /* ToDoDemoRealmSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoDemoRealmSwiftUIApp.swift; sourceTree = "<group>"; };
 		41B662532D0744FB00B870FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -100,6 +104,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41A750BA2D11BD8B00B65020 /* SearchSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				41A750BD2D11C0B100B65020 /* Model */,
+				41A750BB2D11BEAA00B65020 /* SearchContentView.swift */,
+			);
+			path = SearchSwiftUI;
+			sourceTree = "<group>";
+		};
+		41A750BD2D11C0B100B65020 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				41A750BE2D11C0BC00B65020 /* TaskData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		41B662452D0744FB00B870FD = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +145,7 @@
 		41B662502D0744FB00B870FD /* ToDoDemoRealmSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				41A750BA2D11BD8B00B65020 /* SearchSwiftUI */,
 				41B662932D075BDE00B870FD /* Model */,
 				41B662882D075A8100B870FD /* Utils */,
 				41B662832D07537800B870FD /* Views */,
@@ -343,8 +365,10 @@
 				41B662542D0744FB00B870FD /* ContentView.swift in Sources */,
 				41B662852D07539500B870FD /* AddTaskView.swift in Sources */,
 				41B6627F2D07503200B870FD /* TasksView.swift in Sources */,
+				41A750BF2D11C0BC00B65020 /* TaskData.swift in Sources */,
 				41B662872D07575A00B870FD /* SmallAddButton.swift in Sources */,
 				41B662522D0744FB00B870FD /* ToDoDemoRealmSwiftUIApp.swift in Sources */,
+				41A750BC2D11BEAA00B65020 /* SearchContentView.swift in Sources */,
 				41B6628A2D075A9300B870FD /* RealmManager.swift in Sources */,
 				41B662822D07512100B870FD /* TaskRow.swift in Sources */,
 			);

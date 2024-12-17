@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct ToDoDemoRealmSwiftUIApp: App {
+    private let appData = ApplicationData.shared
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //ContentView()
+            SearchContentView()
+                .environment(appData)
         }
     }
 }
