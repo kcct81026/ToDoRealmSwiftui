@@ -107,8 +107,7 @@
 		41A750BA2D11BD8B00B65020 /* SearchSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				41A750BD2D11C0B100B65020 /* Model */,
-				41A750BB2D11BEAA00B65020 /* SearchContentView.swift */,
+				41A750C02D11CCC400B65020 /* SimpleSearchableView */,
 			);
 			path = SearchSwiftUI;
 			sourceTree = "<group>";
@@ -119,6 +118,15 @@
 				41A750BE2D11C0BC00B65020 /* TaskData.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		41A750C02D11CCC400B65020 /* SimpleSearchableView */ = {
+			isa = PBXGroup;
+			children = (
+				41A750BB2D11BEAA00B65020 /* SearchContentView.swift */,
+				41A750BD2D11C0B100B65020 /* Model */,
+			);
+			path = SimpleSearchableView;
 			sourceTree = "<group>";
 		};
 		41B662452D0744FB00B870FD = {
